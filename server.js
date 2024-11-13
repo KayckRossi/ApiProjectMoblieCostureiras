@@ -21,6 +21,7 @@ const routes = require('./routes/routes');
 app.use('/', routes);
 
 // Iniciar o servidor
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
